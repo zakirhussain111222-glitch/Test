@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>धार्मिक ज्ञान – 100 MCQ Test</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f7f7f7; margin: 20px; }
+    h1 { text-align: center; }
+    .question { background: #fff; padding: 15px; margin: 10px 0; border-radius: 5px; box-shadow: 0 0 5px #ccc; }
+    .options label { display: block; margin: 5px 0; }
+    button { padding: 10px 20px; font-size: 16px; margin: 20px 0; cursor: pointer; }
+    .correct { background-color: #c8e6c9; }   /* green for correct */
+    .incorrect { background-color: #ffcdd2; } /* light red for incorrect/unanswered */
+    #score { font-size: 20px; font-weight: bold; text-align: center; margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+<h1>धार्मिक ज्ञान – 100 MCQ Test</h1>
+<form id="quizForm">
+
+<!-- MCQ Questions Start -->
+
+<div class="question" id="q1">
+  <p>1. सबसे प्राचीन वेद कौन‑सा है?</p>
+  <div class="options">
+    <label><input type="radio" name="q1" value="A"> A. सामवेद</label>
+    <label><input type="radio" name="q1" value="B"> B. यजुर्वेद</label>
+    <label><input type="radio" name="q1" value="C"> C. ऋग्वेद</label>
+    <label><input type="radio" name="q1" value="D"> D. अथर्ववेद</label>
+  </div>
+</div>
+
+<div class="question" id="q2">
+  <p>2. उपनिषदों का मुख्य विषय क्या है?</p>
+  <div class="options">
+    <label><input type="radio" name="q2" value="A"> A. यज्ञ‑विधि</label>
+    <label><input type="radio" name="q2" value="B"> B. दार्शनिक ज्ञान</label>
+    <label><input type="radio" name="q2" value="C"> C. इतिहास</label>
+    <label><input type="radio" name="q2" value="D"> D. साहित्य</label>
+  </div>
+</div>
+
+<div class="question" id="q3">
+  <p>3. भगवद्गीता किस ग्रंथ का हिस्सा है?</p>
+  <div class="options">
+    <label><input type="radio" name="q3" value="A"> A. रामायण</label>
+    <label><input type="radio" name="q3" value="B"> B. महाभारत</label>
+    <label><input type="radio" name="q3" value="C"> C. पुराण</label>
+    <label><input type="radio" name="q3" value="D"> D. उपनिषद</label>
+  </div>
+</div>
+
+<div class="question" id="q4">
+  <p>4. हिन्दू त्रिमूर्ति में निम्न में कौन शामिल नहीं है?</p>
+  <div class="options">
+    <label><input type="radio" name="q4" value="A"> A. ब्रह्मा</label>
+    <label><input type="radio" name="q4" value="B"> B. विष्णु</label>
+    <label><input type="radio" name="q4" value="C"> C. शिव</label>
+    <label><input type="radio" name="q4" value="D"> D. गणेश</label>
+  </div>
+</div>
+
+<div class="question" id="q5">
+  <p>5. योगसूत्र किसने रचा था?</p>
+  <div class="options">
+    <label><input type="radio" name="q5" value="A"> A. पतंजलि</label>
+    <label><input type="radio" name="q5" value="B"> B. शंकराचार्य</label>
+    <label><input type="radio" name="q5" value="C"> C. कपिल</label>
+    <label><input type="radio" name="q5" value="D"> D. व्यास</label>
+  </div>
+</div>
+
+<div class="question" id="q6">
+  <p>6. जैन धर्म के 24वें तीर्थंकर कौन थे?</p>
+  <div class="options">
+    <label><input type="radio" name="q6" value="A"> A. पार्श्वनाथ</label>
+    <label><input type="radio" name="q6" value="B"> B. ऋषभदेव</label>
+    <label><input type="radio" name="q6" value="C"> C. महावीर</label>
+    <label><input type="radio" name="q6" value="D"> D. नेमिनाथ</label>
+  </div>
+</div>
+
+<div class="question" id="q7">
+  <p>7. महावीर का निर्वाण स्थल कौन‑सा है?</p>
+  <div class="options">
+    <label><input type="radio" name="q7" value="A"> A. वैशाली</label>
+    <label><input type="radio" name="q7" value="B"> B. पावापुरी</label>
+    <label><input type="radio" name="q7" value="C"> C. राजगीर</label>
+    <label><input type="radio" name="q7" value="D"> D. श्रावस्ती</label>
+  </div>
+</div>
+
+<div class="question" id="q8">
+  <p>8. बौद्ध धर्म के संस्थापक कौन थे?</p>
+  <div class="options">
+    <label><input type="radio" name="q8" value="A"> A. महावीर</label>
+    <label><input type="radio" name="q8" value="B"> B. गौतम बुद्ध</label>
+    <label><input type="radio" name="q8" value="C"> C. अशोक</label>
+    <label><input type="radio" name="q8" value="D"> D. कनिष्क</label>
+  </div>
+</div>
+
+<div class="question" id="q9">
+  <p>9. बुद्ध ने बोधि वृक्ष के नीचे ज्ञान प्राप्त किया — वह स्थान कौन‑सा है?</p>
+  <div class="options">
+    <label><input type="radio" name="q9" value="A"> A. सारनाथ</label>
+    <label><input type="radio" name="q9" value="B"> B. बोधगया</label>
+    <label><input type="radio" name="q9" value="C"> C. कुशीनगर</label>
+    <label><input type="radio" name="q9" value="D"> D. लुंबिनी</label>
+  </div>
+</div>
+
+<div class="question" id="q10">
+  <p>10. त्रिरत्न (Three Jewels) किस धर्म की अवधारणा है?</p>
+  <div class="options">
+    <label><input type="radio" name="q10" value="A"> A. हिन्दू धर्म</label>
+    <label><input type="radio" name="q10" value="B"> B. बौद्ध धर्म</label>
+    <label><input type="radio" name="q10" value="C"> C. जैन धर्म</label>
+    <label><input type="radio" name="q10" value="D"> D. सिख धर्म</label>
+  </div>
+</div>
+
+<div class="question" id="q11">
+  <p>11. इस्लाम के पाँच स्तंभों में शामिल नहीं है:</p>
+  <div class="options">
+    <label><input type="radio" name="q11" value="A"> A. शाहादा</label>
+    <label><input type="radio" name="q11" value="B"> B. नमाज़</label>
+    <label><input type="radio" name="q11" value="C"> C. रोज़ा</label>
+    <label><input type="radio" name="q11" value="D"> D. पूजा</label>
+  </div>
+</div>
+
+<div class="question" id="q12">
+  <p>12. मुसलमानों की जुम्मा (विशेष नमाज़) किस दिन होती है?</p>
+  <div class="options">
+    <label><input type="radio" name="q12" value="A"> A. रविवार</label>
+    <label><input type="radio" name="q12" value="B"> B. शनिवार</label>
+    <label><input type="radio" name="q12" value="C"> C. शुक्रवार</label>
+    <label><input type="radio" name="q12" value="D"> D. बुधवार</label>
+  </div>
+</div>
+
+<div class="question" id="q13">
+  <p>13. कुरआन किस भाषा में अवतरित हुआ था?</p>
+  <div class="options">
+    <label><input type="radio" name="q13" value="A"> A. अरबी</label>
+    <label><input type="radio" name="q13" value="B"> B. फ़ारसी</label>
+    <label><input type="radio" name="q13" value="C"> C. उर्दू</label>
+    <label><input type="radio" name="q13" value="D"> D. हिब्रू</label>
+  </div>
+</div>
+
+<div class="question" id="q14">
+  <p>14. ईसाई धर्म में यीशु मसीह का पुनरुत्थान किस उत्सव में मनाया जाता है?</p>
+  <div class="options">
+    <label><input type="radio" name="q14" value="A"> A. क्रिसमस</label>
+    <label><input type="radio" name="q14" value="B"> B. ईस्टर</label>
+    <label><input type="radio" name="q14" value="C"> C. गुड फ्राइडे</label>
+    <label><input type="radio" name="q14" value="D"> D. पेंटेकोस्ट</label>
+  </div>
+</div>
+
+<div class="question" id="q15">
+  <p>15. बाइबल के दो भाग कौन‑कौन से हैं?</p>
+  <div class="options">
+    <label><input type="radio" name="q15" value="A"> A. पुराना नियम और नया नियम</label>
+    <label><input type="radio" name="q15" value="B"> B. उपनिषद और पुराण</label>
+    <label><input type="radio" name="q15" value="C"> C. भगवद् गीता और उपनिषद</label>
+    <label><input type="radio" name="q15" value="D"> D. तोराह और ज़ोहर</label>
+  </div>
+</div>
+
+<div class="question" id="q16">
+  <p>16. पारसी धर्म के संस्थापक कौन माने जाते हैं?</p>
+  <div class="options">
+    <label><input type="radio" name="q16" value="A"> A. महावीर</label>
+    <label><input type="radio" name="q16" value="B"> B. जरथुस्त्र (Zoroaster)</label>
+    <label><input type="radio" name="q16" value="C"> C. ईसा</label>
+    <label><input type="radio" name="q16" value="D"> D. मुहम्मद</label>
+  </div>
+</div>
+
+<div class="question" id="q17">
+  <p>17. पारसी धर्म की पवित्र पुस्तक है:</p>
+  <div class="options">
+    <label><input type="radio" name="q17" value="A"> A. वेद</label>
+    <label><input type="radio" name="q17" value="B"> B. अवेस्ता</label>
+    <label><input type="radio" name="q17" value="C"> C. तोराह</label>
+    <label><input type="radio" name="q17" value="D"> D. बाइबल</label>
+  </div>
+</div>
+
+<div class="question" id="q18">
+  <p>18. सिख धर्म के संस्थापक कौन थे?</p>
+  <div class="options">
+    <label><input type="radio" name="q18" value="A"> A. गुरु गोविंद सिंह</label>
+    <label><input type="radio" name="q18" value="B"> B. गुरु नानक देव</label>
+    <label><input type="radio" name="q18" value="C"> C. गुरु अर्जुन देव</label>
+    <label><input type="radio" name="q18" value="D"> D. गुरु तेग बहादुर</label>
+  </div>
+</div>
+
+<div class="question" id="q19">
+  <p>19. “गुरु ग्रंथ साहिब” को सिख धर्म में किस रूप में माना जाता है?</p>
+  <div class="options">
+    <label><input type="radio" name="q19" value="A"> A. अंतिम मानव गुरु</label>
+    <label><input type="radio" name="q19" value="B"> B. एक ग्रंथ मात्र</label>
+    <label><input type="radio" name="q19" value="C"> C. केवल ऐतिहासिक दस्तावेज़</label>
+    <label><input type="radio" name="q19" value="D"> D. पूजा का सामान</label>
+  </div>
+</div>
+
+<div class="question" id="q20">
+  <p>20. सिख धर्म में “पाँच ककार” में से कौन‑सा शामिल नहीं है?</p>
+  <div class="options">
+    <label><input type="radio" name="q20" value="A"> A. केश</label>
+    <label><input type="radio" name="q20" value="B"> B. कड़ा</label>
+    <label><input type="radio" name="q20" value="C"> C. कंगना</label>
+    <label><input type="radio" name="q20" value="D"> D. कृपाण</label>
+  </div>
+</div>
+
+<!-- … Add questions q21 to q100 similarly … -->
+
+<button type="button" onclick="submitQuiz()">Submit Test</button>
+</form>
+
+<div id="score"></div>
+
+<script>
+  const answers = {
+    "q1":"C","q2":"B","q3":"B","q4":"D","q5":"A",
+    "q6":"C","q7":"B","q8":"B","q9":"B","q10":"B",
+    "q11":"D","q12":"C","q13":"A","q14":"B","q15":"A",
+    "q16":"B","q17":"B","q18":"B","q19":"A","q20":"C"
+    // … continue for q21 to q100 …
+  };
+
+  function submitQuiz(){
+    let totalScore = 0;
+    for(let i=1; i<=100; i++){
+      const key = "q" + i;
+      const qDiv = document.getElementById(key);
+      if (!qDiv) continue;
+      qDiv.classList.remove("correct","incorrect");
+      const sel = document.querySelector(`input[name=${key}]:checked`);
+      if (sel) {
+        if (sel.value === answers[key]) {
+          totalScore += 1;
+          qDiv.classList.add("correct");
+        } else {
+          qDiv.classList.add("incorrect");
+        }
+      } else {
+        qDiv.classList.add("incorrect");
+      }
+    }
+    document.getElementById("score").innerText = "आपका कुल अंक: " + totalScore + " / 100";
+  }
+</script>
+
+</body>
+</html>
